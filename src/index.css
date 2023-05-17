@@ -1,0 +1,144 @@
+body {
+  margin: 15px 0% 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.center{
+  text-align: center;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.blue{
+  color: blue;
+}
+.purple{
+  color: purple;
+}
+.p5{
+  padding: 5px;
+}
+.p10{
+  padding: 10px;
+}
+.p15{
+  padding: 15px;
+}
+.p20{
+  padding: 20px;
+}
+.m5{
+  margin: 5px;
+}
+.m10{
+  margin: 10px;
+}
+.m15{
+  margin: 15px;
+}
+.m20{
+  margin: 20px;
+}
+.container{
+  min-height: 500px;
+}
+#topnav{
+  background-color: blue;
+  margin: 0px;
+  border-radius: 30px;
+  top: 0px;
+  position: sticky;
+}
+#topnav li{
+  display: inline-block;
+  padding: 18px 10px 18px;
+}
+.mylink{
+font-size: 22px;
+color: white;
+text-decoration: none;
+}
+.four{
+  margin: 2%;
+  width: 20%;
+  display: inline-block;
+  font-size: 30px;
+}
+fieldset{
+  margin: 2%;
+  width: 18%;
+  display: inline-block;
+  vertical-align: top;
+  min-height: 200px;
+  border-radius: 20px;
+  border: 3px double blue;
+  box-shadow: 0px 0px 18px orange;
+}
+legend{
+  background-color:lightblue;
+  color: red;
+  border-radius: 8px 8px 0px 0px;
+  padding: 5px 15px 5px;
+  font-size: 25px;
+  
+}
+.sixitem{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.sixitem div{
+  margin: 30px;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+}
+.abc{
+  margin-right: 40px;
+  font-size: 25px;
+}
+.edit{
+  font-size: 13px;
+  text-decoration: none;
+  padding: 4px 7px 4px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.paginate{
+  text-align: center;
+}
+.paginate ul li{
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+}
+.paginate ul li a{
+  padding: 5px 15px 5px;
+  background:blue;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+#contact{
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+#contact tr{
+  height: 40px;
+}
+.error , i{
+  color: red;
+}
